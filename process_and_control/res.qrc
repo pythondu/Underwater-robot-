@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/Icon">
+        <file>image/down.jpg</file>
+        <file>image/left.jpg</file>
+        <file>image/play.jpg</file>
+        <file>image/right.jpg</file>
+        <file>image/up.jpg</file>
+    </qresource>
+</RCC>

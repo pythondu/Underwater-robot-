@@ -1,0 +1,8 @@
+#!/bin/sh
+
+exe="process_and_control"
+des="/home/tony/build-process_and_control-unknown-Release"
+
+deplist=$(ldd $exe | awk '{if (match($3,"/")){printf("%s "),$3} }')
+cp $deplist $des
+
